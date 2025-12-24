@@ -2,12 +2,12 @@ import React from 'react';
 import ScrollReveal from '../ScrollReveal/ScrollReveal';
 
 const photos = [
-  '/img/Oracao.png',
-  '/img/Oracao.png',
-  '/img/Oracao.png',
-  '/img/Oracao.png',
-  '/img/Oracao.png',
-  '/img/Oracao.png',
+  'https://images.unsplash.com/photo-1587654780291-39c940483713?auto=format&fit=crop&w=800&q=80',
+  'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=800&q=80',
+  'https://images.unsplash.com/photo-1560785496-7c97d3c27529?auto=format&fit=crop&w=800&q=80',
+  'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80',
+  'https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80',
+  'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80',
 ];
 
 const Gallery = () => {

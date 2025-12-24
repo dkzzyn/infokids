@@ -9,7 +9,7 @@ const GalleryTeaser = () => {
           <ScrollReveal animation="fade-in-left">
             <div className="rounded-3xl overflow-hidden shadow-xl">
               <div className="aspect-[4/3]">
-                <img src="/img/Oracao.png" alt="Foto da nossa comunidade" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?auto=format&fit=crop&w=800&q=80" alt="Foto da nossa comunidade" className="w-full h-full object-cover" />
               </div>
             </div>
           </ScrollReveal>

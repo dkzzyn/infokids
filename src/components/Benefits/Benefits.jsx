@@ -6,33 +6,38 @@ const Benefits = () => {
   const benefits = [
     {
       number: 1,
-      title: "Safe and Joyful Environment",
-      description: "Located in a quiet, green area with our own secure playground. Our center provides a safe haven where children can explore, learn, and grow in a nurturing Christian environment filled with love and care.",
+      title: "Ambiente Seguro e Alegre",
+      description: "Localizado em uma área tranquila e verde, com nosso próprio parquinho seguro. Nosso centro oferece um refúgio seguro onde as crianças podem explorar, aprender e crescer em um ambiente cristão acolhedor, cheio de amor e carinho.",
       imageBg: "from-blue-100 to-blue-200",
+      image: <img src="https://images.unsplash.com/photo-1596908905631-7fe2dd220d24?auto=format&fit=crop&w=800&q=80" alt="Parquinho" className="w-full h-full object-cover" />
     },
     {
       number: 2,
-      title: "Designed for Comfort and Safety",
-      description: "Our kindergarten was designed to be cozy and safe for children. Every space is thoughtfully crafted to inspire creativity, learning, and happiness while ensuring the highest safety standards.",
+      title: "Projetado para Conforto e Segurança",
+      description: "Nosso jardim de infância foi projetado para ser aconchegante e seguro para as crianças. Cada espaço é cuidadosamente elaborado para inspirar criatividade, aprendizado e felicidade, garantindo os mais altos padrões de segurança.",
       imageBg: "from-orange-200 to-orange-300",
+      image: <img src="https://images.unsplash.com/photo-1587691592099-24045742c181?auto=format&fit=crop&w=800&q=80" alt="Sala aconchegante" className="w-full h-full object-cover" />
     },
     {
       number: 3,
-      title: "Experienced and Loving Teachers",
-      description: "Our team of experienced educators uses effective methods for child development and socialization. Guided by Christian values, our teachers provide loving care that nurtures both academic growth and character development.",
+      title: "Professores Experientes e Amorosos",
+      description: "Nossa equipe de educadores experientes utiliza métodos eficazes para o desenvolvimento e socialização infantil. Guiados por valores cristãos, nossos professores oferecem cuidado amoroso que nutre tanto o crescimento acadêmico quanto o desenvolvimento do caráter.",
       imageBg: "from-blue-100 to-blue-200",
+      image: <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80" alt="Professora" className="w-full h-full object-cover" />
     },
     {
       number: 4,
-      title: "Healthy Meals Prepared with Care",
-      description: "We provide a balanced 5-meal diet (breakfast, fruit breakfast, lunch, afternoon snack, dinner) prepared with love and care. Every meal is thoughtfully planned to nourish growing bodies while teaching gratitude and appreciation.",
+      title: "Refeições Saudáveis Preparadas com Carinho",
+      description: "Oferecemos uma dieta balanceada de 5 refeições (café da manhã, lanche da manhã, almoço, lanche da tarde, jantar) preparadas com amor e cuidado. Cada refeição é planejada para nutrir corpos em crescimento enquanto ensina gratidão.",
       imageBg: "from-blue-100 to-blue-200",
+      image: <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80" alt="Comida saudável" className="w-full h-full object-cover" />
     },
     {
       number: 5,
-      title: "Values-Based Learning",
-      description: "Our educators share a unified approach to child-rearing, with an educator and assistant always present in each group. We emphasize Christian values, kindness, respect, and character development alongside academic learning.",
+      title: "Aprendizado Baseado em Valores",
+      description: "Nossos educadores compartilham uma abordagem unificada para a criação dos filhos, com um educador e um assistente sempre presentes em cada grupo. Enfatizamos valores cristãos, bondade, respeito e desenvolvimento do caráter juntamente com o aprendizado acadêmico.",
       imageBg: "from-blue-100 to-blue-200",
+      image: <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80" alt="Aprendizado" className="w-full h-full object-cover" />
     },
   ];
 
@@ -150,6 +155,7 @@ const Benefits = () => {
                 title={benefit.title}
                 description={benefit.description}
                 imageBg={benefit.imageBg}
+                image={benefit.image}
                 isEven={index % 2 === 1}
                 delay={index * 0.2}
               />

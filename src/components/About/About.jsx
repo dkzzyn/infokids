@@ -19,7 +19,7 @@ const About = () => {
       {/* Mantém proporção 6/9 */}
       <div className="aspect-[6/9]">
         <video
-          src="public/img/video01.mp4"
+          src="/img/video01.mp4"
           className="w-full h-full object-cover"
           loop
           muted
